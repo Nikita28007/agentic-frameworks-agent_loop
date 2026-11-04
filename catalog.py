@@ -12,7 +12,7 @@ HERE = Path(__file__).resolve().parent
 
 # One record per framework, in the order they were taught. key is also the slug,
 # the folder its game is built into; file is relative to this folder; colour is a
-# rich colour for the live board; runner picks the launcher (python or node).
+# rich colour for the live board; runner picks the launcher.
 WORKERS = [
     {"key": "strands", "name": "AWS Strands", "colour": "cyan", "file": "workers/strands_worker.py", "runner": "python"},
     {"key": "pydantic", "name": "Pydantic AI", "colour": "green", "file": "workers/pydantic_worker.py", "runner": "python"},
