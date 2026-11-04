@@ -1,0 +1,28 @@
+[project]
+name = "agentic-frameworks-agent-loop"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Nikita28007", email = "9266065294n@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "agent-framework>=1.24.0",
+    "agno>=3.1.12",
+    "agno[mcp]>=2.6.14",
+    "dotenv>=0.9.9",
+    "fastmcp>=4.1.6",
+    "google-adk>=2.13.0",
+    "mcp>=2.3.0",
+    "pydantic-ai>=2.65.0",
+    "rich>=15.0.0",
+    "strands-agents[openai]>=1.43.0",
+]
+
+[project.scripts]
+agentic-frameworks-agent-loop = "agentic_frameworks_agent_loop:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
