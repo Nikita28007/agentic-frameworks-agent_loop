@@ -26,3 +26,9 @@ agentic-frameworks-agent-loop = "agentic_frameworks_agent_loop:main"
 [build-system]
 requires = ["uv_build>=0.12.23,<0.13.0"]
 build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.4",
+]
