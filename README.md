@@ -1,5 +1,5 @@
 # Agent Loop: an LLM orchestrator that manages a team of agents built on different frameworks
-
+![CI](https://github.com/Nikita28007/agentic-frameworks-agent_loop/actions/workflows/ci.yml/badge.svg)
 An orchestrator agent (Google ADK) designs a curriculum, delegates one mini-game to each of four builder agents (AWS Strands, Pydantic AI, Microsoft Agent Framework, Agno), QA-tests every result in a real browser, sends broken games back for one fix round, and assembles a playable web arcade.
 
 ```bash
