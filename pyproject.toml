@@ -16,7 +16,9 @@ dependencies = [
     "google-adk>=2.13.0",
     "mcp>=2.3.0",
     "pydantic-ai>=2.65.0",
+    "pytest>=9.2.0",
     "rich>=15.0.0",
+    "ruff>=0.17.4",
     "strands-agents[openai]>=1.43.0",
 ]
 
